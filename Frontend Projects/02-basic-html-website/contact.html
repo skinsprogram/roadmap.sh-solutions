@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Контакты на простом HTML-сайт начинающего Frontend-разработчика">
+    <meta name="keywords" content="Frontend Project, HTML, Roadmap.sh">
+    <meta name="author" content="Катеринкин Артем">
+    <title>Контакты | Простой HTML-сайт</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+</head>
+<body class="page">
+    <header class="main-header">
+        <nav class="main-nav">
+            <a class="logo" href="#"><img src="#" width="64" height="68" alt="Логотип Катеринкина Артема"></a>
+            <ul class="site-navigation">
+                <li class="site-navigation-item"><a href="index.html">Главная</a></li>
+                <li class="site-navigation-item"><a href="project.html">Проекты</a></li>
+                <li class="site-navigation-item"><a href="articles.html">Статьи</a></li>
+                <li class="site-navigation-item"><a href="contact.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="main-contact">
+            <h1>Связаться со мной</h1>
+            <p>Связываться со мной не надо, но следите за моими успехами в <a href="https://github.com/skinsprogram" target="_blank">GitHub</a> <span>&#128150;</span></p>
+            <p>Хотя можете попробовать использовав выдуманные способы связи ниже:</p>
+            <ul class="contact-content">
+                <li class="contact-item">
+                    <h2>Адрес:</h2>
+                    <address>г. Москва</address>
+                </li>
+                <li class="contact-item">
+                    <h2>Телефон:</h2>
+                    <a href="tel:+79876543210">8 (987) 654-32-10</a>
+                </li>
+                <li class="contact-item">
+                    <h2>E-mail:</h2>
+                    <a href="mailto:coolboy52@mail.ru">coolboy52@mail.ru</a>
+                </li>
+                <li class="contact-item">
+                    <h3>Cоциальные сети:</h3>
+                    <ul class="social-list">
+                        <li class="social-item"><a href="#"><img src="img/twitter.svg" width="18" height="16" alt="Twitter"></a></li>
+                        <li class="social-item"><a href="#"><img src="img/instagram.svg" width="18" height="18" alt="Instagram"></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="super-form">
+            <p>А ещё можете написать мне прям тут, не обещаю что отвечу</p>
+            <div class="container">
+                <form>
+                    <fieldset>
+                        <legend>Напиши мне</legend>
+                        <div class="container-item">
+                            <label for="name">Ваши имя и фамилия</label>
+                            <br>
+                            <input type="text" name="name" id="name" placeholder="ИВАН ИВАНОВ" required>
+                        </div>
+                        <div class="container-item">
+                            <label for="number">Номер карточки</label>
+                            <br>
+                            <input type="text" name="number" id="number" placeholder="1111 1111 1111 1111" required>
+                        </div>
+                        <div class="container-item">
+                            <label for="number-data">Срок действия карточки</label>
+                            <br>
+                            <input type="text" name="number-data" id="number-data" placeholder="11/11" required>
+                        </div>
+                        <div class="container-item">
+                            <label for="number-super">Три цифры на обороте</label>
+                            <br>
+                            <input type="text" name="number-super" id="number-super" placeholder="123" required>
+                        </div>
+                        <div class="container-item">
+                            <label for="text-me">Сообщение</label>
+                            <br>
+                            <textarea name="text-me" id="text-me" rows="7" cols="30" placeholder="Привет, друг!" disabled></textarea>
+                        </div>
+                        <div class="container-item">
+                            <input type="submit" value="Отправить">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-column">
+            <p class="policy"><a href="#">Политика конфиденциальности</a></p>
+            <p class="copyright">&copy;2025 Все права защищены</p>
+        </div>
+    </footer>
+</body>
+</html>
